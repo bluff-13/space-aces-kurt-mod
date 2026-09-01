@@ -1,3 +1,4 @@
-body {
-    filter: invert(1) !important;
+/* Günlük Ödül Butonunu Kırmızı Yapma Testi */
+#dailyLoginBonus, button, .start-btn {
+    filter: hue-rotate(120deg) !important;
 }
