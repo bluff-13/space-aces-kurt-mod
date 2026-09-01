@@ -1,4 +1,7 @@
-/* Günlük Ödül Butonunu Kırmızı Yapma Testi */
-#dailyLoginBonus, button, .start-btn {
-    filter: hue-rotate(120deg) !important;
+/* Oyun İçi Panelleri Parlatıp Renk Değiştirme Testi */
+div[class*="panel"], 
+div[class*="hud"], 
+.Minimap, 
+#user-info-panel {
+    filter: hue-rotate(180deg) !important;
 }
